@@ -50,7 +50,7 @@ Components are just functions that return a DOM Node, meaning they don't really 
 
 Silke draws a lot of inspiration from Solid, such as using signals for granular reactivity, and JSX for templates. However, the underlying philosophy is a bit different. While Solid chose JSX because it's the path to optimal performance via their compiler, Silke chose JSX because it's the simplest way to parse HTML templates in TypeScript/Bun. It turns out, though, that what is simple is also often what is fast, so in practice we end up going the same way.
 
-Of course, do also note that Solid has a way more mature ecosystem compared to Silke.
+Of course, do also note that Solid has a much more mature ecosystem compared to Silke.
 
 ## Limitations
 
