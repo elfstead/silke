@@ -20,10 +20,11 @@ function Counter() {
 }
 ```
 
-View more examples in [packages/core/examples](./packages/core/examples). Run them from anywhere with `bun /path/to/index.html`, or `npx vite examples/<exampleName>/` called from the `core` directory if you don't want to use Bun.
+View more examples in [packages/core/examples](./packages/core/examples). Run them from anywhere with `bun /path/to/index.html`, or if you don't want to use Bun then run `npx vite examples/<exampleName>/` from inside the `core` directory.
 
 ## Features
 
+- Components, HTML templates, and reactivity (just like you would expect from any framework!)
 - Granular reactivity, like Solid
 - No Vite/Babel dependency. Bun users can just `bun run index.html`
 - 3 built in directives:
