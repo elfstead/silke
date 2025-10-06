@@ -24,7 +24,7 @@ View more examples in [packages/core/examples](./packages/core/examples). Run th
 
 ## Features
 
-- Granular reactivity, like SolidJS
+- Granular reactivity, like Solid
 - No Vite/Babel dependency. Bun users can just `bun run index.html`
 - 3 built in directives:
   - `on...=` for event handlers
@@ -44,6 +44,12 @@ Why does Silke not have its own signals implementation? Apart from the fact that
 Also, note that Silke templates are JSX. JSX is built in to TypeScript and Bun, which is how Silke achieves templating without adding code complexity to the core and without any additional dependencies (assuming you already develop with TS and/or Bun).
 
 Components are just functions that return a DOM Node, meaning they don't really exist as an explicit concept in Silke's core code.
+
+## Comparison to Solid
+
+Silke draws a lot of inspiration from Solid, such as using signals for granular reactivity, and JSX for templates. However, the underlying philosophy is a bit different. While Solid chose JSX because it's the path to optimal performance via their compiler, Silke chose JSX because it's the simplest way to parse HTML templates in TypeScript/Bun. It turns out, though, that what is simple is also often what is fast, so in practice we end up going the same way.
+
+Of course, do also note that Solid has a way more mature ecosystem compared to Silke.
 
 ## Limitations
 
