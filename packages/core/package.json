@@ -1,0 +1,19 @@
+{
+  "name": "@silke/core",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "alien-signals": "^3.0.0"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./jsx-runtime": "./src/jsx.ts",
+    "./jsx-dev-runtime": "./src/jsx.ts"
+  }
+}

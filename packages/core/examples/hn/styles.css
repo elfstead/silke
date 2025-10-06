@@ -1,0 +1,25 @@
+body {
+  background: gray;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border-radius: 5px;
+  background: darkgray;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+li:hover {
+  background: silver;
+}
