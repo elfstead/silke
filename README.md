@@ -20,7 +20,7 @@ function Counter() {
 }
 ```
 
-View more examples in [packages/core/examples](./packages/core/examples).
+View more examples in [packages/core/examples](./packages/core/examples). Run them from anywhere with `bun /path/to/index.html`, or `npx vite examples/<exampleName>/` called from the `core` directory if you don't want to use Bun.
 
 ## Features
 
